@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+.minnimum-height{
+    min-height:80vh;
+    background-color: hsla(200, 0%, 30%, 100%);
+   display: grid;
+   place-items: center;
+}
+.kortholder{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50ch, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+/*men kan også gjøres med flex*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.kort{
+    background-color: hsla(400, 0%, 80%, 100%);
+    padding: 2rem;
+    width: 50ch;
+}
+
+.shadow_corner{
+    border-radius: 7px;
+    box-shadow:0px 10px 20px hsla(200, 0%, 10%, 70%);
+}
